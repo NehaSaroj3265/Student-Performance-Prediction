@@ -1,2 +1,6 @@
 pandas
+<<<<<<< HEAD
 scikit-learn
+=======
+scikit-learn
+>>>>>>> 6d4dbb5e160bd5ff7a2d7de33d7017839b75413d

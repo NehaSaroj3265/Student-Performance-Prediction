@@ -8,4 +8,8 @@ Study_Hours,Attendance,Previous_Score,Result
 7,95,85,Pass
 2,40,35,Fail
 5,75,70,Pass
+<<<<<<< HEAD
 6,85,78,Pass
+=======
+6,85,78,Pass
+>>>>>>> 6d4dbb5e160bd5ff7a2d7de33d7017839b75413d

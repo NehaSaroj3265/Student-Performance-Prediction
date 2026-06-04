@@ -16,15 +16,26 @@ model = DecisionTreeClassifier()
 model.fit(X_train, y_train)
 
 y_pred = model.predict(X_test)
+<<<<<<< HEAD
 print("Model Accuracy:", accuracy_score(y_test, y_pred))
+=======
+
+print("Accuracy:", accuracy_score(y_test, y_pred))
+>>>>>>> 6d4dbb5e160bd5ff7a2d7de33d7017839b75413d
 
 study_hours = int(input("Enter study hours: "))
 attendance = int(input("Enter attendance: "))
 previous_score = int(input("Enter previous score: "))
 
+<<<<<<< HEAD
 new_data = pd.DataFrame([[study_hours, attendance, previous_score]],
                         columns=["Study_Hours", "Attendance", "Previous_Score"])
 
 prediction = model.predict(new_data)
 
 print("Prediction:", prediction[0])
+=======
+prediction = model.predict([[study_hours, attendance, previous_score]])
+
+print("Prediction:", prediction[0])
+>>>>>>> 6d4dbb5e160bd5ff7a2d7de33d7017839b75413d
